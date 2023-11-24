@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, Arial, Georgia, Tahoma;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-nav-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #007aff;
+}
+
+.upper-nav-item {
+  padding: 1rem;
+  flex: 1;
+  justify-content: center;
+  justify-self: center;
+}
+
+.upper-nav-item-middle {
+  background-color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  gap: 5rem;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  padding: 4rem 1.5rem;
+  text-decoration: none;
+  color: #007aff;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.2);
+  background-color: #007aff;
+  color: white;
+}
+.img-footer {
+  padding: 3rem;
+  background-color: black;
+  margin-top: -0.5rem;
+  display: flex;
+  min-width: 200px;
+  flex-grow: 3;
+}
+.home-image-footer {
+  margin-top: 0rem;
+}
+.video-container{
+ width: 100vw;
+ height: 50vh;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  
+}
+
+.main-container video {
+  /* height: 100vh; */
+  width: 100vw;
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+  margin-top: -50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lead {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 21px;
+  margin-top: -0.5rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  outline: 1px solid #007aff !important;
+  margin: 20 0 15px;
+  color: white;
+  background-color: #007aff;
+  padding: 70px 0 40px 0;
+  height: 90vh;
+}
+
+.left-main {
+  flex: 2;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 3.5rem;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+.right-main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: nowrap;*/
+  text-decoration: underline;
+}
+
+.card-1 {
+  width: 35rem;
+  margin: 3.5px;
+  margin-top: 30px;
+}
+/* .pass-2 {
+  margin: 3.5px;
+} */
+.pass-2 {
+  line-height: 1.4;
+  margin: 3.5px;
+}
+.middle-1 {
+  display: flex;
+  justify-content: column;
+}
+.middle-2 {
+  justify-content: space-around;
+  font-display: flex;
+  margin-right: 0px;
+}
+.pass-1 {
+  margin-top: 5px;
+}
+button {
+  padding: 20px;
+  border-width: 2px;
+  background-color: transparent;
+  margin-top: 50px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: white;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+.footer {
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+.footer > div {
+  display: inherit;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+}
+.footer > div >h4 {
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: #fff;
+  justify-content: left;
+  align-items: left;
+}
+.footer a {
+  color: white;
+}
+.lead1 {
+  display: flex;
+  background-color: #007aff;
+  height: 90vh;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.middle {
+  flex-grow: 1;
+}
+
+.h2-container {
+  margin-top: 30px !important;
+}
+.text-container {
+  flex-grow: 1;
+}
+
+.left-main1 {
+  flex-grow: 1;
+}
+
+.courses-title {
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.company {
+  height: 30vh;
+  flex-grow: 1;
+}
+
+.company nav ul li {
+  list-style: none;
+}
+
+.company nav ul li a {
+  text-decoration: none;
+}
+
+.help {
+  height: 30vh;
+  flex-grow: 1;
+}
+.help nav ul li {
+  list-style: none;
+}
+.help nav ul li a {
+  text-decoration: none;
+}
+.shop {
+  height: 30vh;
+  flex-grow: 1;
+}
+.shop nav ul li {
+  list-style: none;
+}
+.shop nav ul li a {
+  text-decoration: none;
+}
+.social {
+  height: 30vh;
+  flex-grow: 1;
+}
+.social nav ul li {
+  list-style: none;
+}
+.social nav ul li a {
+  text-decoration: none;
+}
