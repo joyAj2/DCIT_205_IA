@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, Arial, Georgia, Tahoma;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.upper-nav-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #007aff;
+}
+
+.upper-nav-item {
+  padding: 1rem;
+  flex: 1;
+  justify-content: center;
+  justify-self: center;
+}
+
+.upper-nav-item-middle {
+  background-color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  gap: 5rem;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  padding: 4rem 1.5rem;
+  text-decoration: none;
+  color: #007aff;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.2);
+  background-color: #007aff;
+  color: white;
+}
+/* swiper css */
+.swiper {
+  width: 100%;
+  height: 500px;
+  margin-top: -50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* campus css */
+.campus-events{
+  background-color: rgba(0, 122, 255, 0.9);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 5%;
+}
+.campus-videos{
+
+}
+.campus-videos video{
+  height: 50vh;
+  border-radius: 25px; 
+}
+.campus-paragraph{
+  padding: 7%;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: -6.5px;
+  color: #fff;
+}
+.campus-speech > h4{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  color: #fff;
+}
+/* classroom collaboration */
+.campus1-container{
+  background-color:#fff;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.campus1-description{
+  width: 45%;
+}
+.campus1-description h4{
+  color: black;
+  font-size: 24px;
+  text-align: left;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.campus1-description > .campus1-paragraph{
+  color: black;
+}
+.campus1-events{
+  background: #ffffff;
+}
+.campus1-container > .campus-videos> video{
+  height: 50vh;
+  border-radius: 25px;
+}
+/* gallery css */
+.gallery-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #007aff;;
+  width: 100%;
+  padding: 20px;
+}
+.gallery-image .gallery-image-header{
+  font-size: 5.5rem;
+  margin-bottom: 50px;
+}
+.gallery-image .gallery-image-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  
+  width: 100%;
+}
+.gallery-image .gallery-image-content .w-u-c{
+  width: 25%;
+}
+.w-u-c .title{
+  color: #007aff;
+  margin-bottom: 25px;
+  font-size: 25px;
+  
+}
+.w-u-c .description{
+  font-size: 15px;
+  line-height: 2.5rem;
+  color: white;
+}
+/* footer */
+
+.footer {
+  height: 50vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  margin-bottom: 40px;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.footer > div > h4 {
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: #fff;
+  padding: 9px;
+}
+
+.footer a {
+  color: white;
+}
+
+.company,
+.help,
+.shop,
+.social {
+  height: 30vh;
+  flex-grow: 1;
+}
+
+.company nav ul li,
+.help nav ul li,
+.shop nav ul li,
+.social nav ul li {
+  list-style: none;
+}
+
+.company nav ul li a,
+.help nav ul li a,
+.shop nav ul li a,
+.social nav ul li a {
+  text-decoration: none;
+}
