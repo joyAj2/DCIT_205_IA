@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Science Department</title>
+  <link rel="stylesheet" href="stylesheet/curriculum.css" />
+  <script src="https://kit.fontawesome.com/b0190800a3.js" crossorigin="anonymous"></script>
+
+  <script>
+    function toggle(courseID){
+    let courses = document.getElementById(courseID)
+    if (courses.style.display === "none"){
+    courses.style.display = "flex";
+    } else {
+      courses.style.display = "none"
+    }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="upper-nav-container">
+          <div class="upper-nav-item" style="text-align: center; color: white; display: flex; align-items: center;">
+            THE UNIVERSITY OF GHANA
+          </div>
+          <div class="upper-nav-item upper-nav-item-middle"
+            style="text-align: center; color: black; display: flex; align-items: center;">
+            Where legends are made
+          </div>
+          <div class="upper-nav-item"
+            style="text-align: center; color: white; display: flex; align-items: center; gap: 50px;">
+            Welcome
+            <span>
+              <span style="margin-right: 80px;"><i class="fa-solid fa-search"></i>
+              </span>
+              <span><i class="fa-solid fa-bars"></i>
+              </span>
+            </span>
+          </div>
+        </div>
+        <nav class="nav-container">
+          <div class="nav-section">
+            <img style="max-width: 20rem" src="image/comScience_logo.png" alt="university of ghana logo" />
+          </div>
+          <div class="nav-section">
+            <ul class="nav-links">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/Catalog.html">Catalog</a></li>
+              <li><a href="/Resources.html">Resources</a></li>
+              <li><a href="/Events.html">Events</a></li>
+              <li><a href="/Contact.html">Contacts</a></li>
+              <li><a href="/Curriculum.html">Curriculum</a></li>
+              <li><a href="/Facilities.html">Facilities</a></li>
+              <li><a href="/Alumini.html">Alumni</a></li>
+              <li><a href="/Gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="video-container">
+        <video src="videos/video3.mp4" autoplay muted loop>main3 video</video>
+        <h3 class="video-container-text">Undergraduate Courses</h3>
+        <p>Home&#x2192; Courses</p>
+      </div>
+      <!-- course list -->
+      <div class="course-list-container">
+        <aside class="left-aside">
+          <h2>Computer Science</h2>
+
+          <div class="cs-level-100" onclick="toggle('course-details-1')">
+            <h4>Level 100</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+         
+        <div class="course-details" id="course-details-1" style="display: none;">
+          <div class="cs-courses" >
+            <div class="semester">
+              <h4 >First Semester</h4>
+              <div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 150</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Critical Thinking and Practical Reasoning</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 121</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Algebra and Trigonometry</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 123</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Vectors and Geometry</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 101</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Computer Science</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 103</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Office Productivity Tools</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>STAT 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Statistics and Probability I
+                  </p>
+                </div>
+              </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div id="course-details">
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 110</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Academic Writing I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 131-136</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Understanding Human Society</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 122</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Calculus I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 126</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Algebra and Geometry</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>STAT 112</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Statistics and Probability II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 104</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming</p>
+                </div>
+              </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-2')">
+            <h4>Level 200</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-2" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 210</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Academic Writing II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 201</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming I</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 203</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Digital and Logic Systems Design</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 205</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Multi Media and Web Design</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 207</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Computer Architecture & Organisation</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 223</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Calculus II</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 220</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 202</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Mobile Application Development</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 204</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Data Structures & Algorithm I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 206</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Systems Administration</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 208</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Software Engineering</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 212</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Numerical and Computational Methods
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-3')">
+            <h4>Level 300</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-3" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 301</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Operating Systems</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 303</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Computer Networks</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 305</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Database Fundamentals</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 313</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Artificial Intelligence</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 359</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Discrete Mathematics</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 307</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Mini-Project</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 400</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Project</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 401</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Social, Legal, Ethical and Professional Issues</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 407</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Image Processing</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 306</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Cloud Computing Numerical
+                    and Computational Methods</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 316</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Computational models for
+                    Social Media Mining</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-4')" >
+            <h4>Level 400</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-4" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 400</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Project</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 401</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Social, Legal, Ethical and Professional Issues</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 407</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Image Processing</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 403</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Designing Intelligent Agents</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 405</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Statistical Models and Methods for Data Science</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 411</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Bio-informatics</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </aside>
+        <aside class="right-aside">
+          <h2>Information technology</h2>
+          <div class="cs-level-100"  onclick="toggle ('course-details-5')">
+            <h4>Level 100</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-5" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 150</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Critical Thinking and Practical Reasoning</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 101</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Computer Science</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 103</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Office Productivity Tools</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 105</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Mathematics for IT Professionals</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>STAT 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Statistics and Probability I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 121</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Algebra and Trigonometry</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 110</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Academic Writing I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 131-136</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Understanding Human Society</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 122</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Calculus I</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>MATH 126</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Algebra and Geometry</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>STAT 112</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Statistics and Probability II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 104</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-6')">
+            <h4>Level 200</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-6" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 210</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Academic Writing II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 201</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming I</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 203</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Digital and Logic Systems Design</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 205</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Multi Media and Web Design</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 207</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Computer Architecture & Organization</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 209</p>
+                </div>
+
+                <div class="course-title">
+                  <p>E-Business Architectures</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>UGRC 111</p>
+                </div>
+
+                <div class="course-title">
+                  <p>African Studies</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-7')">
+            <h4>Level 300</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-7" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 301</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Operating Systems</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 303</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Computer Networks</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 305</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Database Fundamentals</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 313</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Introduction to Artificial Intelligence</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 317</p>
+                </div>
+
+                <div class="course-title">
+                  <p>IT Project Management</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 302</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Human Computer Interaction</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 304</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Research Methods</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 308</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Data Structures and Algorithms II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 312</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Information Security Management</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 318</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 314</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Game Engine Architecture</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+          <div class="cs-level-100" onclick="toggle ('course-details-8')">
+            <h4>Level 400</h4>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="course-details" id="course-details-8" style="display: none;">
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>First Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 400</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Project</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 401</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Social, Legal, Ethical and Professional Issues</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 409</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Digital Forensics</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 413</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Play and Games</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="cs-courses">
+            <div class="semester">
+              <h4>Second Semester</h4>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 400</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Project</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 402</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Management Principles in Computing</p>
+                </div>
+              </div>
+
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 418</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Systems and Network Security</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 428</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Wireless Systems and Networks</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 318</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Programming II</p>
+                </div>
+              </div>
+              <div class="course-info">
+                <div class="course-code">
+                  <p>DCIT 404</p>
+                </div>
+
+                <div class="course-title">
+                  <p>Advanced Databases</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </aside>
+      </div>
+
+
+      <!-- last brief -->
+
+  <div class="brief">
+    <h4 class="brief-header">Computer Science Department Curriculum</h4>
+    <div  iv class="brief-content">
+      <div class=" Academic Offerings w-u-c">
+        <h4 class="title">Bachelor of Science in Computer Science</h4>
+        <p class="description">
+          An overview of fundamental concepts in computer science, including programming languages, algorithms, and data structures.
+
+          A foundation in mathematical principles essential for understanding and solving computational problems.
+          Computer Systems and Architecture
+
+          Exploring the architecture of computers and the fundamentals of computer systems.
+          Second Year
+        </p>
+      </div>
+      <div class="Curriculum Overview w-u-c">
+        <h4 class="title">
+          Data Structures and Algorithms
+        </h4>
+        <p class="description">
+          In-depth study of data structures and algorithms, emphasizing problem-solving and efficiency.
+
+          Principles and practices of software development, including version control, testing, and collaborative coding.
+          Database Management Systems
+
+          Introduction to database design, implementation, and management.
+          Third Year
+        </p>
+      </div>
+      <div class="Student Support w-u-c">
+        <h4 class="title">Operating Systems</h4>
+        <p class="description">
+          Understanding the core concepts and functionalities of operating systems.
+
+
+          Exploration of network protocols, security principles, and techniques to safeguard digital assets.
+          Artificial Intelligence
+
+          Introduction to AI concepts, machine learning algorithms, and applications.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      <!-- footer -->
+  <div class="footer">
+    <div class="company">
+      <h4>Academics</h4>
+      <nav>
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Undergraduate Courses</a></li>
+          <li><a href="">Graduate Courses(MPhil Computer Science)</a></li>
+          <li><a href="">Academic Calendar</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="help">
+      <h4>Admissions</h4>
+      <nav>
+        <ul>
+          <li><a href="">Undergraduate</a></li>
+          <li><a href="">Graduate</a></li>
+          <li><a href="">International Students</a></li>
+          <li><a href="">Entry Requirements</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="shop">
+      <h4>About The Department</h4>
+      <nav>
+        <ul>
+          <li><a href="">Introducing DCS</a></li>
+          <li><a href="">Head of Department's office</a></li>
+          <li><a href="">Faculty</a></li>
+          <li><a href="">Libraries</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="social">
+      <h4>Contact us</h4>
+      <h4>Phones & Emails</h4>
+      <nav>
+        <ul>
+          <li>
+            <a href="">
+              <span><i style="margin-right: 10px; color: #fff; width: 15px; height: 0.5px;"
+                  class="fa-solid fa-phone "></i></span>
+              +233 501 382 035
+            </a>
+
+          </li>
+          <li>
+            <a href="">
+              <span><i style="margin-right: 10px; color: #fff; width: 15px; height: 0.5px;"
+                  class="fa-solid fa-phone "></i></span>
+              +233 559 145 698
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span><i style="margin-right: 10px; color: #fff; width: 15px; height: 0.5px;"
+                  class="fa-solid fa-envelope "></i></span>
+              dcs@ug.edu.gh
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  </body>
+
+</html>
