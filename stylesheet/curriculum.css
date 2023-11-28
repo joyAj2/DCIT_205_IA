@@ -1,0 +1,300 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, Arial, Georgia, Tahoma;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.upper-nav-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #007aff;
+}
+
+.upper-nav-item {
+  padding: 1rem;
+  flex: 1;
+  justify-content: center;
+  justify-self: center;
+}
+
+.upper-nav-item-middle {
+  background-color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  gap: 5rem;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  padding: 4rem 1.5rem;
+  text-decoration: none;
+  color: #007aff;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.2);
+  background-color: #007aff;
+  color: white;
+}
+
+.video-container{
+ width: 100%;
+ height: 500px;
+ aspect-ratio: 16/9;
+ position: relative;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  color:#0478f5 ;
+}
+.video-container-text{
+  position: absolute;
+  margin-top: -30px;
+  font-size: 70px;
+  color:rgba(0, 122, 255, 0.9);
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.video-container p{
+  position: absolute;
+  margin-top: 100px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+/* course list style */
+.course-list-container{
+  /* background-color: #0478f5; */
+  /* height: 70vh; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color:#007aff ;
+  
+}
+
+
+.left-aside{
+  /* height:  270vh; */
+  width: 50vw;
+  color: #fff;
+}
+.left-aside h2{
+  text-align: center;
+  margin-top: 20px;
+}
+h2{
+  font-weight: lighter ;
+  color: white;
+}
+.left-aside > .cs-level-100{
+  height: 40px;
+  
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.left-aside > .cs-level-100> h4{
+  font-size: 18px;
+}
+.semester{
+  height: 40px;
+  /* background-color: bisque; */
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.semester> h4{
+  font-size: 22px;
+}
+
+.course-details{
+  flex-direction: column;
+}
+
+.course-info{
+  display: flex;
+  padding-top: 10px;
+}
+
+.course-title{
+  margin-left: 30px;
+}
+
+.course-title>p{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.course-code > p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.right-aside{
+  height:  270h;
+  width: 50vw;
+  color:#fff;
+  
+
+}
+
+
+
+
+.cs-courses{
+  height: 30vh;
+  width: inherit;
+}
+
+.right-aside h2{
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+
+
+
+.right-aside > .cs-level-100{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* brief-css */
+.brief{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+.brief .brief-header{
+  font-size: 5.5rem;
+  margin-bottom: 50px;
+}
+.brief .brief-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  
+  width: 100%;
+}
+.brief .brief-content .w-u-c{
+  width: 25%;
+}
+.w-u-c .title{
+  color: #007aff;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.w-u-c .description{
+  font-size: 15px;
+  line-height: 2.5rem;
+  color: rgb(85, 83, 83);
+}
+
+
+/* footer */
+.footer {
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(0, 122, 255, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  margin-top: 20px;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.footer > div > h4 {
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer a {
+  color: white;
+}
+
+.company,
+.help,
+.shop,
+.social {
+  height: 30vh;
+  flex-grow: 1;
+}
+
+.company nav ul li,
+.help nav ul li,
+.shop nav ul li,
+.social nav ul li {
+  list-style: none;
+}
+
+.company nav ul li a,
+.help nav ul li a,
+.shop nav ul li a,
+.social nav ul li a {
+  text-decoration: none;
+}
+
+
