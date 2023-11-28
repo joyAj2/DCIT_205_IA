@@ -1,4 +1,4 @@
-![catalog](https://github.com/joyAj2/DCIT_205_IA/assets/150051457/330b267c-f8b8-4320-93c4-02845a8e259a)# DCIT_205_IA
+# DCIT_205_IA
 # Computer Science Department Website
 
 ## Introduction
@@ -11,12 +11,12 @@ To clone and set up this project locally, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/cs-department-website.git
+    git clone https://github.com/your-username/cs-department-website.git](https://github.com/joyAj2/DCIT_205_IA
     ```
 
 2. **Navigate to the Project Directory:**
     ```bash
-    cd cs-department-website
+    cd DCIT_205_IA
     ```
 
 3. **Open the Index.html file in a Browser:**
@@ -30,8 +30,8 @@ To clone and set up this project locally, follow these steps:
 
 ## Author Information
 
-- **Author:** [Your Full Name]
-- **Student ID:** [Your Student ID]
+- **Author:** EJEH JOY AVE
+- **Student ID:** 11358724
 
 ## Screenshots
 
