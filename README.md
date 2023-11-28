@@ -87,5 +87,3 @@ In the course of developing this website, I gained valuable experience in:
 Feel free to reach out if you have any questions or suggestions!
 
 ---
-
-*Note: Make sure to replace placeholders like [Your University/Institution], [Your Full Name], [Your Student ID], and file paths accordingly.*
